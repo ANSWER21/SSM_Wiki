@@ -1,4 +1,4 @@
-package com.jiawa.wiki;
+package com.jiawa.wiki.config;
 
 
 
@@ -10,9 +10,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.Environment;
-import org.springframework.scheduling.annotation.EnableAsync;
-import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.stereotype.Component;
 
+@ComponentScan("com.jiawa")
 @SpringBootApplication
 public class WikiApplication {
 
