@@ -1,4 +1,25 @@
 GET http://localhost:8880/hello
+Accept: application/json
+
+<> 2022-01-25T041512.200.json
+
+###
+
+GET http://localhost:8880/hello
+Accept: application/json
+
+<> 2022-01-25T041445.200.json
+
+###
+
+GET http://localhost:8880/hello
+Accept: application/json
+
+<> 2022-01-25T041403.200.json
+
+###
+
+GET http://localhost:8880/hello
 
 <> 2022-01-25T034923.200.txt
 
